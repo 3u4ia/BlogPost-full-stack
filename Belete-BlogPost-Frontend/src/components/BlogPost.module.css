@@ -1,0 +1,31 @@
+.blogPost {
+	margin-bottom: 30px;
+	border: 2px solid hsl(38, 100%, 50%);
+	border-radius: 15px;
+	padding: 15px;
+	width: 100%;
+	position: relative;
+
+}
+
+
+.deleteButton {
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	padding: 5px;
+	border-radius: 15px;
+	right: 0px;
+
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+    background-color: hsl(38, 100%, 50%);
+}
+
+
+.deleteSVG {
+	background-color: transparent;
+
+}

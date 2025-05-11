@@ -1,0 +1,30 @@
+.navbarUl {
+    list-style: none;
+}
+
+.navbar {
+    margin-top: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+
+}
+
+.navbarButton {
+    margin-right: 15px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.navbarButton:hover {
+    cursor: pointer;
+    background-color: hsl(38, 100%, 50%);
+}

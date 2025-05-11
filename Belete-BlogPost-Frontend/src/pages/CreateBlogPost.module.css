@@ -1,0 +1,34 @@
+.createBlog {
+	height: 60vh;
+}
+
+
+
+
+.createBlog input{
+	border: none;
+	border-radius: 15px;
+	
+	padding: 5px;
+	margin: 5px;
+}
+
+
+
+.createBody {
+	width: 70%;
+	height: 100%;
+	padding: 15px;
+	border: none;
+	
+}
+.createBody::placeholder {
+	font-size: 2rem;
+	;
+}
+
+.saveButton {
+	margin-top: 20px;;
+	padding: 10px;
+	border-radius: 10px;
+}

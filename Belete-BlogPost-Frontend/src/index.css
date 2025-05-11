@@ -1,0 +1,13 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(159, 94, 53), rgb(229, 101, 72));
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
