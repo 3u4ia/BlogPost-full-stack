@@ -30,7 +30,6 @@ export const CreateBlogPage = () => {
 			body,
 			author,
 		})
-		console.log("Message should be sent");
 
 		navigate("/")
 

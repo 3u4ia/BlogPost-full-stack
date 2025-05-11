@@ -15,7 +15,6 @@ interface BlogPost {
 
 function App() {
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
-
   const getBlogPosts = async () => {
     const url = 'http://localhost:3000/blogpost'
 

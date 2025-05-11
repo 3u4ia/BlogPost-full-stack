@@ -28,7 +28,15 @@
 }
 
 .saveButton {
-	margin-top: 20px;;
+	margin-top: 20px;
+	background-color: transparent;
+	border: 2px solid;
 	padding: 10px;
 	border-radius: 10px;
+	color: white;
+	transition: background-color, 0.5s ease;
+}
+.saveButton:hover {
+	cursor: pointer;
+	background-color: hsl(38, 100%, 50%);
 }
